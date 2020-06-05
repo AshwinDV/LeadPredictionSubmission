@@ -1,0 +1,8 @@
+flask
+pytest
+gunicorn
+numpy
+pandas
+sklearn
+imblearn
+mlflow
