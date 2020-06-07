@@ -1,10 +1,13 @@
-ML Ops (Machine Learning Operations)
+### ML Ops (Machine Learning Operations)
 ML project life cycle includes various stages like business understanding, data acquisition, data analysis, data cleaning, model class selection, model training, hyperparameter tuning, model evaluation, model validation, model serving, performance monitoring. A lot of progress has been made in the stages from data analysis till model validation with availability of large datasets, on demand compute options, access to state of the art ML algorithms in the form of libraries. The two steps which is still not optimised are as below
   1.	Translating business problem statement to ML problem statement
   2.	Taking the model to production
+  
 ML Ops is a way is an approach to solve second problem by unifying ML system development (Dev) and ML system operation (Ops). In other words ML Ops is adopting DevOps principles to ML projects taking into consideration that ML is not just code, it’s code plus data and models. ML Ops is a set of practices that combines Machine Learning, DevOps and Data Engineering, which aims to deploy and maintain ML systems in production reliably and efficiently.
+
 In layman's terms ML Ops can be defined as automating the ML project workflow and implementing monitoring in every stage to trigger appropriate action. This involves using various tools and processes like git for source code version, github for shared repository, github actions for automating CI/CD, MLflow for model version control & tracking, kubeflow for organising ML workflow, leverage distributed compute infrastructure for hyperparameter tuning, enable scalable deployment in an infrastructure agnoistic manner and so on.
-Summary of the approach and justification
+
+### Summary of the approach and justification
   1.	Business understanding: The goal is to identify which leads will be converted as customers. This will help better sales resources and increase conversion rate.
   2.	Data understanding:
     i.	The leads data has id, landing page, origin, first contact date of list of potential customers.
