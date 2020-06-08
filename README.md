@@ -64,9 +64,9 @@ In layman's terms ML Ops can be defined as automating the ML project workflow an
         2. Detect if any new origin is received during serving and alert via email
         
  12. Unit testing
-    1. Basic unit tests were performed using pytest 
-    2. Vlalidation test was performed to make sure recall is above desired limit
-    3. Flake8 tests were done to identify syntax, styling errors
+    1. Basic unit tests were performed using pytest. 
+    2. Vlalidation test was performed to make sure recall is above desired limit.
+    3. Flake8 tests were done to identify syntax, styling errors.
     
  13. Source code version control was done using git
  
