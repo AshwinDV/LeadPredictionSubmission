@@ -51,22 +51,22 @@ In layman's terms ML Ops can be defined as automating the ML project workflow an
  9. Model training: Model was trained on full data with minority class oversampled on chosen value for hyper parameter.
  
  10. Model serving: 
-    1. Flask app was built to host the model locally. 
-    2. Local deployment was tested using random test data sent via python requests library. 
-    3. Finally model was deployed on Heroku which provides platform as a service.
+     1. Flask app was built to host the model locally. 
+     2. Local deployment was tested using random test data sent via python requests library. 
+     3. Finally model was deployed on Heroku which provides platform as a service.
     
  11. Monitoring
-    1. Concept drift: Detect fundamental changes leading to performance degradation
-        1. PSI (Population Stability Index) score would be calculated against training data and real time test data to identify if there is any major change in distribution and an email would be sent as alert if there is a drift.
-        2. Detect degradation in metrics compared to validation data and alert via email  
-    2. Data drift: Change in data encoding
-        1. Detect if any new landing id is received during serving and alert via email
-        2. Detect if any new origin is received during serving and alert via email
+     1. Concept drift: Detect fundamental changes leading to performance degradation
+         1. PSI (Population Stability Index) score would be calculated against training data and real time test data to identify if there is any major change in distribution and an email would be sent as alert if there is a drift.
+         2. Detect degradation in metrics compared to validation data and alert via email  
+     2. Data drift: Change in data encoding
+         1. Detect if any new landing id is received during serving and alert via email
+         2. Detect if any new origin is received during serving and alert via email
         
  12. Unit testing
-    1. Basic unit tests were performed using pytest.
-    2. Flake8 tests were done to identify syntax, styling errors.
-    3. Vlalidation test was performed to make sure recall is above desired limit.
+     1. Basic unit tests were performed using pytest.
+     2. Flake8 tests were done to identify syntax, styling errors.
+     3. Vlalidation test was performed to make sure recall is above desired limit.
     
  13. Source code version control was done using git
  
